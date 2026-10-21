@@ -2,7 +2,7 @@
 import html
 
 EMAIL = 'roborota.app@gmail.com'
-UPDATED = '19.10.2026'
+UPDATED = '21.10.2026'
 LANGS = [('en', 'English'), ('tr', 'Türkçe'), ('de', 'Deutsch'), ('es', 'Español'), ('nl', 'Nederlands'), ('fr', 'Français')]
 
 CSS = """
@@ -115,7 +115,7 @@ PRIVACY = {
   ('Data stored on the device', 'The game saves progress (stars and unlocked levels), the sound setting, the chosen language and whether the full version is unlocked. This data stays on the device, is never sent to us or to anyone else, and is deleted when the app is removed.'),
   ('Purchases', 'The full version is sold through Apple\'s In-App Purchase system. Apple processes the payment; we never see payment details, the Apple Account or any personal information. Purchases are behind a parental gate.'),
   ('Children', 'The game is made for children aged 8–12 and is designed to follow the App Store Kids Category rules, the U.S. Children\'s Online Privacy Protection Act (COPPA) and the GDPR. Because we collect no personal data, no personal data of children is collected, shared or sold.'),
-  ('Third parties', 'The app contains no third-party advertising, analytics or social media services and no links that leave the app.'),
+  ('Third parties', 'The app contains no third-party advertising, analytics or social media services. The only link that leaves the app opens our other game\'s App Store page, and it is behind a parental gate.'),
   ('Changes and contact', f'If this policy changes, the new version will be posted on this page with a new date. Questions: {mail}.'),
  ],
  'tr': [
@@ -123,7 +123,7 @@ PRIVACY = {
   ('Cihazda saklanan veriler', 'Oyun ilerlemeyi (yıldızlar ve açılan seviyeler), ses ayarını, seçilen dili ve tam sürümün açık olup olmadığını kaydeder. Bu veriler cihazda kalır, bize ya da başka birine gönderilmez ve uygulama silinince silinir.'),
   ('Satın almalar', 'Tam sürüm Apple\'ın uygulama içi satın alma sistemiyle satılır. Ödemeyi Apple işler. Ödeme bilgilerini, Apple hesabını ya da herhangi bir kişisel bilgiyi biz hiçbir zaman görmeyiz. Satın almalar ebeveyn kontrolünün arkasındadır.'),
   ('Çocuklar', 'Oyun 8–12 yaş çocuklar için yapılmıştır ve App Store Çocuklar kategorisi kurallarına, ABD Çocukların Çevrim İçi Gizliliğini Koruma Yasası\'na (COPPA), GDPR\'a ve KVKK\'ya uygun olacak şekilde tasarlanmıştır. Kişisel veri toplamadığımız için çocuklara ait hiçbir kişisel veri toplanmaz, paylaşılmaz ya da satılmaz.'),
-  ('Üçüncü taraflar', 'Uygulamada üçüncü taraf reklam, analiz ya da sosyal medya hizmeti ve uygulamanın dışına çıkan bağlantı yoktur.'),
+  ('Üçüncü taraflar', 'Uygulamada üçüncü taraf reklam, analiz ya da sosyal medya hizmeti yoktur. Uygulamanın dışına çıkan tek bağlantı diğer oyunumuzun App Store sayfasını açar ve ebeveyn kontrolünün arkasındadır.'),
   ('Değişiklikler ve iletişim', f'Bu politika değişirse yeni sürüm yeni tarihle bu sayfada yayınlanır. Sorularınız için: {mail}.'),
  ],
  'de': [
@@ -131,7 +131,7 @@ PRIVACY = {
   ('Auf dem Gerät gespeicherte Daten', 'Das Spiel speichert den Fortschritt (Sterne und freigeschaltete Level), die Toneinstellung, die gewählte Sprache und ob die Vollversion freigeschaltet ist. Diese Daten bleiben auf dem Gerät, werden weder an uns noch an Dritte gesendet und beim Löschen der App entfernt.'),
   ('Käufe', 'Die Vollversion wird über Apples In-App-Kauf verkauft. Apple wickelt die Zahlung ab; wir sehen weder Zahlungsdaten noch den Apple Account oder andere persönliche Informationen. Käufe sind durch eine Elternkontrolle geschützt.'),
   ('Kinder', 'Das Spiel richtet sich an Kinder von 8 bis 12 Jahren und ist so gestaltet, dass es den Regeln der App-Store-Kategorie „Kinder“, dem US-amerikanischen COPPA und der DSGVO entspricht. Da wir keine personenbezogenen Daten erheben, werden keine Daten von Kindern erhoben, weitergegeben oder verkauft.'),
-  ('Dritte', 'Die App enthält keine Werbe-, Analyse- oder Social-Media-Dienste von Dritten und keine Links, die aus der App herausführen.'),
+  ('Dritte', 'Die App enthält keine Werbe-, Analyse- oder Social-Media-Dienste von Dritten. Der einzige Link aus der App öffnet die App-Store-Seite unseres anderen Spiels und ist durch eine Elternkontrolle geschützt.'),
   ('Änderungen und Kontakt', f'Wenn sich diese Erklärung ändert, wird die neue Fassung mit neuem Datum auf dieser Seite veröffentlicht. Fragen: {mail}.'),
  ],
  'es': [
@@ -139,7 +139,7 @@ PRIVACY = {
   ('Datos guardados en el dispositivo', 'El juego guarda el progreso (estrellas y niveles desbloqueados), el ajuste de sonido, el idioma elegido y si la versión completa está desbloqueada. Estos datos se quedan en el dispositivo, nunca se envían a nosotros ni a nadie, y se borran al eliminar la app.'),
   ('Compras', 'La versión completa se vende mediante las compras dentro de la app de Apple. Apple procesa el pago; nunca vemos los datos de pago, la cuenta de Apple ni ninguna información personal. Las compras están protegidas por un control parental.'),
   ('Niños', 'El juego está pensado para niños de 8 a 12 años y está diseñado para cumplir las normas de la categoría Niños del App Store, la ley estadounidense COPPA y el RGPD. Como no recogemos datos personales, no se recogen, comparten ni venden datos de niños.'),
-  ('Terceros', 'La app no contiene servicios de publicidad, analítica ni redes sociales de terceros, ni enlaces que salgan de la app.'),
+  ('Terceros', 'La app no contiene servicios de publicidad, analítica ni redes sociales de terceros. El único enlace que sale de la app abre la página del App Store de nuestro otro juego y está protegido por un control parental.'),
   ('Cambios y contacto', f'Si esta política cambia, la nueva versión se publicará en esta página con una nueva fecha. Preguntas: {mail}.'),
  ],
  'nl': [
@@ -147,7 +147,7 @@ PRIVACY = {
   ('Gegevens op het apparaat', 'Het spel bewaart de voortgang (sterren en geopende levels), de geluidsinstelling, de gekozen taal en of de volledige versie is ontgrendeld. Deze gegevens blijven op het apparaat, worden nooit naar ons of anderen gestuurd en worden verwijderd als de app wordt verwijderd.'),
   ('Aankopen', 'De volledige versie wordt verkocht via de in-app-aankopen van Apple. Apple verwerkt de betaling; wij zien nooit betaalgegevens, het Apple-account of andere persoonlijke informatie. Aankopen zitten achter een ouderlijk slot.'),
   ('Kinderen', 'Het spel is gemaakt voor kinderen van 8 tot 12 jaar en is ontworpen om te voldoen aan de regels van de App Store-categorie Kinderen, de Amerikaanse COPPA en de AVG. Omdat we geen persoonsgegevens verzamelen, worden er geen gegevens van kinderen verzameld, gedeeld of verkocht.'),
-  ('Derden', 'De app bevat geen advertentie-, analyse- of socialemediadiensten van derden en geen links die de app verlaten.'),
+  ('Derden', 'De app bevat geen advertentie-, analyse- of socialemediadiensten van derden. De enige link die de app verlaat, opent de App Store-pagina van ons andere spel en zit achter een ouderlijk slot.'),
   ('Wijzigingen en contact', f'Als dit beleid verandert, verschijnt de nieuwe versie met een nieuwe datum op deze pagina. Vragen: {mail}.'),
  ],
  'fr': [
@@ -155,7 +155,7 @@ PRIVACY = {
   ("Données enregistrées sur l'appareil", "Le jeu enregistre la progression (étoiles et niveaux débloqués), le réglage du son, la langue choisie et l'état de la version complète. Ces données restent sur l'appareil, ne sont jamais envoyées ni à nous ni à personne, et sont supprimées avec l'app."),
   ('Achats', "La version complète est vendue via les achats intégrés d'Apple. Apple traite le paiement ; nous ne voyons jamais les données de paiement, le compte Apple ni aucune information personnelle. Les achats sont protégés par un contrôle parental."),
   ('Enfants', "Le jeu est conçu pour les enfants de 8 à 12 ans et respecte les règles de la catégorie Enfants de l'App Store, la loi américaine COPPA et le RGPD. Comme nous ne collectons aucune donnée personnelle, aucune donnée d'enfant n'est collectée, partagée ou vendue."),
-  ('Tiers', "L'app ne contient aucun service tiers de publicité, d'analyse ou de réseau social, ni aucun lien qui sort de l'app."),
+  ('Tiers', "L'app ne contient aucun service tiers de publicité, d'analyse ou de réseau social. Le seul lien qui sort de l'app ouvre la page App Store de notre autre jeu et il est protégé par un contrôle parental."),
   ('Modifications et contact', f'Si cette politique change, la nouvelle version sera publiée sur cette page avec une nouvelle date. Questions : {mail}.'),
  ],
 }
@@ -170,5 +170,5 @@ def privacy_sections():
 
 open('index.html', 'w').write(page('Robo Rota – Support', 'Coding puzzles for kids · Support', support_sections(), '<a href="privacy.html">Privacy Policy</a>'))
 open('privacy.html', 'w').write(page('Robo Rota – Privacy Policy', 'Privacy Policy', privacy_sections(), '<a href="index.html">Support</a>'))
-open('README.md', 'w').write('# Robo Rota – site\n\nSupport page and privacy policy for the Robo Rota iPad game, served with GitHub Pages.\n\n- Support: https://yasareminsolmaz-blip.github.io/robo-rota-site/\n- Privacy: https://yasareminsolmaz-blip.github.io/robo-rota-site/privacy.html\n\nPages are generated by `build.py`.\n')
+open('README.md', 'w').write('# Robo Rota and Flockode – site\n\nSupport pages and privacy policies for our iPad games, served with GitHub Pages.\n\n- Robo Rota support: https://yasareminsolmaz-blip.github.io/robo-rota-site/\n- Robo Rota privacy: https://yasareminsolmaz-blip.github.io/robo-rota-site/privacy.html\n- Flockode support: https://yasareminsolmaz-blip.github.io/robo-rota-site/flockode/\n- Flockode privacy: https://yasareminsolmaz-blip.github.io/robo-rota-site/flockode/privacy.html\n\nPages are generated by `build.py` (Robo Rota) and `build_flockode.py` (Flockode).\n')
 print('built')
