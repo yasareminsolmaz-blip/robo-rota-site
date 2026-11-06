@@ -1,7 +1,7 @@
 """Builds flockode/index.html (support) and flockode/privacy.html in six languages. Run: python3 build_flockode.py"""
 import html
 
-EMAIL = 'roborota.app@gmail.com'
+EMAIL = 'app.support.yes@gmail.com'
 UPDATED = '21.10.2026'
 LANGS = [('en', 'English'), ('tr', 'Türkçe'), ('de', 'Deutsch'), ('es', 'Español'), ('nl', 'Nederlands'), ('fr', 'Français')]
 
